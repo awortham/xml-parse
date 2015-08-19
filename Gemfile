@@ -8,3 +8,4 @@ gem 'rmagick'
 gem 'fog'
 gem 'pry'
 gem 'i18n'
+gem "rack-timeout"
