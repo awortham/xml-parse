@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Success Page</title>
-  </head>
-  <body>
-    <h1>You have successfully uploaded your image files to Rackspace!</h1>
-    <p>
-      Please click the link to download your new kml file.
-    </p>
+<h1>You have successfully uploaded your image files to Rackspace!</h1>
+<p>
+  Please click the link to download your new kml file.
+</p>
 
-    <form action="/">
-      <input type="submit" value="Home">
-    </form>
+<form action="/">
+  <input type="submit" value="Home">
+</form>
 
-    <form  method="post" action="/download">
-      <%= "Your File #{@filename} can be downloaded below with the new image urls that point to rackspace." %><br>
-      <input name="filename" type="hidden" value= <%= @filename %>><br>
-      <input type="submit" value="Download">
-    </form>
-  </body>
-</html>
+<form  method="post" action="/download">
+  <%= "Your File #{@filename} can be downloaded below with the new image urls that point to rackspace." %><br>
+  <input name="filename" type="hidden" value= <%= @filename %>><br>
+  <input type="submit" value="Download">
+</form>
