@@ -134,6 +134,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rack-timeout (0.2.4)
     rmagick (2.15.4)
     shotgun (0.9.1)
       rack (>= 1.0)
@@ -156,6 +157,7 @@ DEPENDENCIES
   i18n
   nokogiri
   pry
+  rack-timeout
   rmagick
   shotgun
   sinatra
